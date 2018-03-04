@@ -12250,6 +12250,10 @@ PREAMP RF-IF</text>
 <junction x="60.96" y="157.48"/>
 <junction x="60.96" y="147.32"/>
 <junction x="60.96" y="142.24"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="175.26" x2="60.96" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="175.26" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
+<junction x="60.96" y="162.56"/>
 </segment>
 </net>
 <net name="LDR4_B" class="0">
@@ -12369,6 +12373,7 @@ PREAMP RF-IF</text>
 <wire x1="142.24" y1="190.5" x2="142.24" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="190.5" x2="149.86" y2="193.04" width="0.1524" layer="91"/>
 <label x="149.86" y="193.04" size="1.778" layer="95"/>
+<junction x="149.86" y="190.5"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -12378,6 +12383,7 @@ PREAMP RF-IF</text>
 <wire x1="193.04" y1="200.66" x2="193.04" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="200.66" x2="187.96" y2="203.2" width="0.1524" layer="91"/>
 <label x="187.96" y="203.2" size="1.778" layer="95"/>
+<junction x="187.96" y="200.66"/>
 </segment>
 </net>
 <net name="N$10" class="0">
